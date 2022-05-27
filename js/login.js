@@ -1,6 +1,6 @@
-let btn = document.querySelector('#versenha')
+let btn = document.querySelector('#')
 
-btn.addEventListener('click', () =>{
+btn[0].addEventListener('click', () =>{
     let inputsenha = document.querySelector('#senha')
     
     if(inputsenha.getAttribute('type') == 'password') {
